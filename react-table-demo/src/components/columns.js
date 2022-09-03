@@ -31,22 +31,26 @@ export const COLUMNS = [
   {
     Header: 'Country',
     Footer: 'Country',
-    accessor: 'country'
+    accessor: 'country',
+    disableFilters: true,
   },
   {
     Header: 'Phone',
     Footer: 'Phone',
-    accessor: 'phone'
+    accessor: 'phone',
+    disableFilters: true,
   },
   {
     Header: 'Email',
     Footer: 'Email',
-    accessor: 'email'
+    accessor: 'email',
+    disableFilters: true,
   },
   {
     Header: 'Age',
     Footer: 'Age',
-    accessor: 'age'
+    accessor: 'age',
+    disableFilters: true,
   },
 ]
 
